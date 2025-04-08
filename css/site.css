@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Century Gothic", sans-serif;
+    background-color: white;
+}
+
+.topnav a{
+    float: left;
+    text-align: center;
+    background-color: #333; 
+    color: white;
+    text-decoration: none;
+    margin: 0 0 0 10px;
+    padding: 14px 16px;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    align-items: center;
+    width: 100%;
+}
+
+.header {
+    position: relative;
+    display: inline-block; /* Ou block, dependendo do contexto */
+}
+.header img {
+    display: flex;
+    width: 1009px;
+    height: 300px; 
+}
+.texto-sobreposto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centraliza o texto */
+    color: white; /* Ou qualquer cor que contraste com a imagem */
+    font-size: 120px;
+}
+
+h2{
+    padding: 10px;
+}
+
+.item{
+    font-size: "Century Gothic", sans-serif;
+    padding: 0 10px;
+}
+
+.sellcard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.valor-item{
+    background-color: #333;
+    color: white;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.informativo{
+    position: absolute;
+    background-color: rgb(189, 187, 187);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    flex-direction: column;
+    text-align: center;
+}
+
