@@ -26,7 +26,7 @@ body{
 
 .header {
     position: relative;
-    display: inline-block; /* Ou block, dependendo do contexto */
+    display: inline-block; 
 }
 .header img {
     display: flex;
@@ -37,8 +37,8 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Centraliza o texto */
-    color: white; /* Ou qualquer cor que contraste com a imagem */
+    transform: translate(-50%, -50%); 
+    color: white; 
     font-size: 120px;
 }
 
